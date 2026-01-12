@@ -1,12 +1,11 @@
-import HeroSection from "@/features/landing.page/hero.section";
-import Container from "@/components/container";
-
-export default function App() {
+export default function () {
   return (
-    <>
-      <Container className="h-dvh p-5">
-        <HeroSection />
-      </Container>
-    </>
+    <div
+      className={twm({
+        base: "h-dvh",
+      })}
+    >
+      Hello World
+    </div>
   );
 }
